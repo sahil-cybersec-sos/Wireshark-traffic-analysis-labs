@@ -1,0 +1,5 @@
+- Opened PCAP in Wireshark
+- Applied DNS filter
+- Found suspicious domain
+- Checked HTTP traffic
+- Identified RAT behavior
