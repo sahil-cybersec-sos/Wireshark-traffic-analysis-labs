@@ -1,0 +1,6 @@
+- Started analysis by filtering HTTP and TLS traffic for the suspicious IP 153.92.1.49 to identify attacker communication.
+- Found malicious domain "whitepepper[.]su" from HTTP Host header, confirming Lumma Stealer activity.
+- Traced infected internal system (10.1.21.103) communicating with attacker server.
+- Used ARP to map IP to MAC address and NBNS/DHCP traffic to identify hostname (DESKTOP-3A9V7KJ).
+- Extracted logged-in user (gwyatt) from Kerberos authentication packets.
+- Derived full name "Gabriel Wyatt" using username pattern and packet content correlation.
