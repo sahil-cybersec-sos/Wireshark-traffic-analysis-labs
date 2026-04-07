@@ -1,0 +1,6 @@
+- Started by analyzing conversations to identify suspicious internal traffic.
+- Detected infected host (10.6.13.133) communicating abnormally within the network.
+- Used ARP to map IP address to MAC address.
+- Extracted hostname using NBNS/DHCP traffic.
+- Identified logged-in user (gaines) from Kerberos authentication packets.
+- Focused on correlating multiple protocols to confirm compromised system.
